@@ -5,15 +5,10 @@ const yearEl = document.querySelector(".year");
 const currentDate = new Date();
 const mounth = currentDate.getMonth();
 
+mounthEl.innerHTML = currentDate.toLocaleString("en", { month: "long" });
 
-// mounthEl.innerHTML = currentDate.tolocalString('en',{month:'long'})
+dayEl.innerText = currentDate.toLocaleString("en", { weekday: "long" });
 
-// dayEl.innerText = currentDate.tolocalString('en',{weekday:'long'});
-
-
-let num = currentDate.getDate();
-console.log(num)
-dateEl.appendChild(num);
-
+dateEl.innerText = currentDate.getDate();
 
 yearEl.innerText = currentDate.getFullYear();
