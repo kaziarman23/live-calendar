@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    font-size: 22px;
+}
+
+body{
+    background-color: royalblue;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.conteiner{
+    width: 90%;
+    max-width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mounth{
+    padding: 10px;
+    background-color: orange;
+}
+
+.day{
+    font-size: 15px;
+    padding: 8px;
+    color:gray;
+}
+
+.date{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.year{
+    opacity: 0.7;
+}
